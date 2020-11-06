@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://cdn.pixabay.com/photo/2018/07/09/18/40/nature-3526840_960_720.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.container{
+    font-family: 'Delius', cursive;
+    margin: auto;
+}
+
+.header{
+    margin: auto;
+    padding: 15px 0;
+    background: rgb(255, 255, 255);
+    width: 1000px;
+    display: flex;
+    text-align: center;
+}
+
+.header .image{
+    width: 140px;
+    padding-left: 30px;
+}
+
+.header .image img{
+    width: 100%;
+}
+
+.header .title1{
+    margin-left: 210px;
+}
+
+.header .title1 h2{
+    padding: 20px 0 10px 0;   
+}
+
+.header .title1 h3{
+    padding-bottom: 30px;
+}
+
+nav{
+    background: rgb(70, 252, 167);
+    height: 60px;
+    max-width: 1000px;
+    margin: auto; 
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.navbar li{
+    list-style: none;
+    width: 200px; 
+}
+
+.navbar li:hover{
+    transform: scale(1);
+}
+
+.navbar li.active a{
+    color: rgb(208, 255, 0);
+}
+
+.navbar li ul li.active a{
+    color: rgb(208, 255, 0);
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+.navbar li a:hover{
+    color: rgb(208, 255, 0);
+}
+
+nav ul{
+    background: rgb(3, 136, 54);
+}
+
+nav ul li{
+    height: 50px;
+    line-height: 50px;
+}
+
+nav ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.title{
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.title h2{
+    padding-top: 50px;
+}
+.main{
+    max-width: 1000px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.card{
+    width: 100%;
+    padding: 50px 50px 50px 60px;
+    display: flex;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+.img{
+    width: 400px;
+}
+
+.text{
+    width: 450px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5em;
+}
+
+.text p{  
+    font-size: 20px; 
+}
+
+.footer{
+    width: 1000px;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer img{
+    width: 250px;   
+}

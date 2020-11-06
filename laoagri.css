@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://cdn.pixabay.com/photo/2018/07/09/18/40/nature-3526840_960_720.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.container{
+    font-family: 'Delius', cursive;
+    margin: auto;
+    width: 1000px;
+}
+
+.header{
+    margin: auto;
+    padding: 15px 0;
+    background: rgb(255, 255, 255);
+    width: 1000px;
+    display: flex;
+    text-align: center;
+}
+
+.header .img{
+    width: 140px;
+    padding-left: 30px;
+}
+
+.header .img img{
+    width: 100%;
+}
+
+.header .title{
+    margin-left: 210px;
+}
+
+.header h2{
+    padding: 20px 0 10px 0;   
+}
+
+.header h3{
+    padding-bottom: 30px;
+}
+
+nav{
+    background: rgb(70, 252, 167);
+    height: 60px;
+    max-width: 1000px;
+    margin: auto;    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.navbar li{
+    list-style: none;
+    width: 200px; 
+}
+
+.navbar li:hover{
+    transform: scale(1);
+}
+
+.navbar li.active a{
+    color: rgb(208, 255, 0);
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+.navbar li a:hover{
+    color: rgb(208, 255, 0);
+}
+
+nav ul{
+    background: rgb(3, 136, 54);
+}
+
+nav ul li{
+    height: 50px;
+    line-height: 50px;
+}
+
+nav ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.main{
+    max-width: 1000px;
+    margin: auto;
+    
+    background: rgba(255, 255, 255, 0.685);  
+}
+
+.section1{
+    padding: 50px 0;
+}
+
+.section1 img{
+    margin-top: 40px;
+    width: 650px;
+    height: 440px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1 h2{
+    padding-left: 45px;
+}
+
+.section1 p{
+    padding: 40px 90px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.section2 h2{
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+.section2 p{
+    padding: 20px 90px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.section{
+    
+    padding: 0 30px;
+    float: left;
+}
+
+.section2 h3{
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.section2 p a:hover{
+    color: rgb(10, 155, 66);
+}
+
+.section2 img{
+    margin: 20px 0 20px 0;
+    width: 600px;
+    height: 370px;
+    margin: auto;
+
+}
+
+.section2 .imgsection img{
+    width: 500px;
+    padding: 0px 40px;
+    float: left;
+    padding-top: 20px;
+    height: 480px;
+    padding-bottom: 70px; 
+} 
+
+.footer{
+    width: 1000px;
+    margin: auto;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.footer img{
+    width: 250px;   
+}
